@@ -19,8 +19,8 @@ public class Main
     public static void main(String[] args) 
     {
          Product p=new Product();
-	 p.product(1,1);
-         p.product(1,1,1);
-         p.product(1.1, 1.1);
+         int ans1=p.product(1,1);
+         int ans2=p.product(1,1,1);
+         double ans3=p.product(1.1, 1.1);
      }
 }
